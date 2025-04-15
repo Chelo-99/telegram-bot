@@ -1,0 +1,1 @@
+{"eip155":{"chains":["eip155:11155111"],"methods":["eth_sendTransaction","personal_sign"],"events":["chainChanged","accountsChanged"],"rpcMap":{"11155111":"https://rpc.walletconnect.com/v1/?chainId=eip155:11155111&projectId=d3bbff88aad679701c7ce96f401fccfd"}}}

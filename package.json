@@ -1,0 +1,33 @@
+{
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "description": "Telegram for of VersaDex.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "nodemon --exec ts-node index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@grammyjs/menu": "^1.2.1",
+    "@grammyjs/router": "^2.0.0",
+    "@grammyjs/runner": "^2.0.3",
+    "@walletconnect/ethereum-provider": "^2.9.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^5.7.2",
+    "grammy": "^1.23.0",
+    "nodemon": "^3.1.0",
+    "openai": "^4.47.1",
+    "quickchart-js": "^3.1.3",
+    "walletconnect": "^1.7.8"
+  },
+  "devDependencies": {
+    "@types/node": "^18.19.33",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.4.5"
+  }
+}
